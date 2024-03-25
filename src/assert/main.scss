@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.25px;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    content: "";
+    margin:10px 0;
+    width: 100px;
+    height: 8px;
+    background-color: #212529;
+  }
+}
+
+.fs-7 {
+  font-size: 14px;
+}
